@@ -34,8 +34,6 @@ The dataset contains customer-level information from a telecom company, includin
 - Billing details (monthly charges, total charges)
 - Target variable: **Churn (Yes/No)**
 
-This dataset is widely used for binary classification and customer retention analysis.
-
 ---
 
 ## Technologies Used
@@ -104,7 +102,6 @@ Key insights discovered:
 ### Confusion Matrix:
 [[True Negatives False Positives]
 [False Negatives True Positives]]
-
 
 This shows how well the model predicts both churn and non-churn customers.
 
