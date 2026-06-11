@@ -1,5 +1,3 @@
-# Customer-Churn-Project
-
 # Customer Churn Prediction (Telecom Dataset)
 
 ## Overview
@@ -129,17 +127,6 @@ This model can help businesses such as telecom companies:
 - Improve customer retention strategies
 - Optimize marketing campaigns
 - Reduce revenue loss caused by churn
-
----
-
-## Project Structure
-│
-├── data/
-│ └── WA_Fn-UseC_-Telco-Customer-Churn.csv
-│
-├── main.py
-├── README.md
-└── requirements.txt
 
 ---
 
