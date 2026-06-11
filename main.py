@@ -171,11 +171,15 @@ X_train, X_test, y_train, y_test = train_test_split(
 # STEP 13: TRAIN THE FIRST AI MODEL
 # We will use Logistic Regression, which is a common algorithm for binary classification problems like churn prediction.
 # Logistic Regression will learn patterns in the training data to predict whether a customer will churn (1) or not (0).
-# We set max_iter=1000 to ensure the model has enough iterations to converge during training.
+
+from sklearn.preprocessing import StandardScaler
+scaler = StandardScaler()
+X_train = scaler.fit_transform(X_train)
+X_test = scaler.transform(X_test)
 
 from sklearn.linear_model import LogisticRegression
 
-model = LogisticRegression(max_iter=1000)
+model = LogisticRegression(max_iter=5000)
 
 model.fit(X_train, y_train)
 
